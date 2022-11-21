@@ -1,4 +1,5 @@
 local nnoremap = require("boris.keymap").nnoremap
+local inoremap = require("boris.keymap").inoremap
 
 -- go  to explorer
 nnoremap("<leader>e", "<cmd>Ex<CR>")
@@ -22,3 +23,7 @@ nnoremap("<S-h>", "<cmd>bprevious<CR>")
 
 -- nvimtree
 nnoremap("<leader>t", "<cmd>NvimTreeToggle<CR>")
+
+-- Enter in normal mode
+
+inoremap("jk", "<Esc>")

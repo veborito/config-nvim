@@ -1,8 +1,8 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 int main()
 {
-	int i;
+	int		i;
 	char	word_in_result;
 
 	i = -1;
